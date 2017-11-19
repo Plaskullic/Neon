@@ -1,0 +1,43 @@
+/** Font Family */
+@font-face {
+
+/** 楷體 */
+  font-family: 'cwTeXKai';
+  font-style: normal;
+  font-weight: 500;
+  src: url(//fonts.gstatic.com/ea/cwtexkai/v3/cwTeXKai-zhonly.eot);
+  src: url(//fonts.gstatic.com/ea/cwtexkai/v3/cwTeXKai-zhonly.eot?#iefix) format('embedded-opentype'),
+       url(//fonts.gstatic.com/ea/cwtexkai/v3/cwTeXKai-zhonly.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/cwtexkai/v3/cwTeXKai-zhonly.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/cwtexkai/v3/cwTeXKai-zhonly.ttf) format('truetype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: #000;
+}
+
+.neon{
+  display: inline-block;
+  margin: 30px;
+  padding: 10px 40px 0px;
+  line-height: 110%;
+  /** Text */
+  font-family: 'cwTeXKai', serif;
+  color: #F9572E;
+  text-shadow: 0 0 6px #fff, 0 0 10px #fff, 0 0 15px #F88F16, 0 0 15px #F88F16, 0 0 25px #F88F16, 0 0 35px #F9482E, 0 0 65px #F9482E;
+  -webkit-text-stroke: 2px #F57033;
+  /** Border */
+  border-style: double;
+  border-width: 10px;
+  border-color: #81FFB0;
+  box-shadow: -1px 0 4px #3EE144, 0 0 12px #3EE144, inset 0 0 12px #3EE144, inset -1px 0 12px #3EE144;
+}
+
+#title{
+  font-size: 120px;
+}
